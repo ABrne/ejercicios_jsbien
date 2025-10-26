@@ -4,7 +4,7 @@ let prompt = require('prompt-sync')();
 let formato0k = true;
 let A = Number(prompt('Introduzca A: '));
 let B = Number(prompt('Introduzca B: '));
-let C = Number(prompt('Introduzca C: '))
+let C = Number(prompt('Introduzca C: '));
 
 if (Number.isNaN(A)) {
     console.log('Formato incorrecto de A');
