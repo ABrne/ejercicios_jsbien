@@ -1,7 +1,16 @@
-header, main, footer {
+header {
     border: 1px solid red;
 }
 
-header {
-    background-color: black;
+main {
+    border: 1px solid red;
 }
+
+.titulos {
+    color:rgb(15, 102, 73);
+}
+
+footer {
+    border: 1px solid red;
+}
+
