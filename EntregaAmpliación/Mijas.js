@@ -14,6 +14,7 @@ function LeerVotosCandidiatoConValidación(candidato) {
       } while (!Number.isNaN);
       return num;
     }
+    
  let alcalde = '';
  let contador = 1;
  let votos1 = 0;
