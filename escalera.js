@@ -28,9 +28,10 @@ function pintarEscalera(ancho,pisos) {
     //Pinto escalera
     for(let j = 0; j < 3;j++) {
         //j es indice de altura de escalón
-        process .stdout.write('-'.repeat((ancho/2)*(pisos-1-i)));
-        process .stdout.write('*'.repeat(ancho));
-        process .stdout.write('\n');
+        let espacios = Math.floor((ancho / 2) * (pisos - 1 - i));
+        process.stdout.write('-'.repeat(espacios));
+        process.stdout.write('*'.repeat(ancho));
+        process.stdout.write('\n');
     }
 
 }
